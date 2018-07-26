@@ -22,7 +22,7 @@ setup(
     description='A sample Python project to convert HTML to JIRA Wiki',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/Invotas',
+    url='https://github.com/vikramarsid/html2jirawiki',
     author='Vikram Arsid',
     author_email='vikramarsid@gmail.com',
     classifiers=[
