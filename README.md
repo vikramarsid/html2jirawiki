@@ -1,7 +1,7 @@
 
 
 [![Build Status](https://travis-ci.org/vikramarsid/html2jirawiki.svg?branch=master)](https://travis-ci.org/vikramarsid/html2jirawiki)
-
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/2755acb84ec94bc1a992987e06a1c019)](https://www.codacy.com/app/vikram-arsid/html2jirawiki?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=vikramarsid/html2jirawiki&amp;utm_campaign=Badge_Grade)
 
 Installation
 ============
@@ -13,26 +13,26 @@ Usage
 =====
 
 Convert some HTML to Markdown:
-
-.. code:: python
-
+```
     from html2jirawiki import html_to_jira_wiki
     html_to_jira_wiki('<b>Yay</b> <a href="http://github.com">GitHub</a>')  # > '**Yay** [GitHub](http://github.com)'
-
+```
 Specify tags to exclude (blacklist):
 
-.. code:: python
+```
 
     from html2jirawiki import html_to_jira_wiki
-    html_to_jira_wiki('<b>Yay</b> <a href="http://github.com">GitHub</a>', strip=['a'])  # > '**Yay** GitHub'
+    html_to_jira_wiki('<b>Yay</b> <a href="http://github.com">GitHub</a>', strip=['a'])  # > '*Yay* GitHub'
 
-\...or specify the tags you want to include (whitelist):
+```
 
-.. code:: python
+or specify the tags you want to include (whitelist):
+
+```
 
     from html2jirawiki import html_to_jira_wiki
-    html_to_jira_wiki('<b>Yay</b> <a href="http://github.com">GitHub</a>', convert=['b'])  # > '**Yay** GitHub'
-
+    html_to_jira_wiki('<b>Yay</b> <a href="http://github.com">GitHub</a>', convert=['b'])  # > '*Yay* GitHub'
+```
 
 Options
 =======
