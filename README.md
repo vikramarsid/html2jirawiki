@@ -1,3 +1,8 @@
+
+
+[![Build Status](https://travis-ci.org/vikramarsid/html2jirawiki.svg?branch=master)](https://travis-ci.org/vikramarsid/html2jirawiki)
+
+
 Installation
 ============
 
